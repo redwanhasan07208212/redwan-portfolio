@@ -1,11 +1,12 @@
 import React from "react";
 import redwan from "@/assets/images/redwan.jpg";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Sparkle } from "lucide-react";
 import Image from "next/image";
 import grainImg from "@/assets/images/grain.jpg";
+
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 flex flex-col items-center justify-center">
+    <div className="py-32 md:py-48 lg:py-60 relative z-0 flex flex-col items-center justify-center overflow-x-clip">
       <div
         className="absolute inset-0 -z-30 opacity-5"
         style={{ backgroundImage: `url(${grainImg.src})` }}
@@ -14,6 +15,11 @@ export const HeroSection = () => {
       <div className="size-[820px] hero-ring"></div>
       <div className="size-[1020px] hero-ring"></div>
       <div className="size-[1220px] hero-ring"></div>
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10  size-[800px]">
+        <div className="">
+          <Sparkle className="size-28 text-emerald-300" />
+        </div>
+      </div>
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
