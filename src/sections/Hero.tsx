@@ -1,8 +1,10 @@
 import React from "react";
 import redwan from "@/assets/images/redwan.jpg";
-import { ArrowDown, Sparkle } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import Image from "next/image";
 import grainImg from "@/assets/images/grain.jpg";
+import { IoStarSharp } from "react-icons/io5";
+import HeroOrbit from "@/components/hero-orbit";
 
 export const HeroSection = () => {
   return (
@@ -15,11 +17,13 @@ export const HeroSection = () => {
       <div className="size-[820px] hero-ring"></div>
       <div className="size-[1020px] hero-ring"></div>
       <div className="size-[1220px] hero-ring"></div>
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10  size-[800px]">
-        <div className="">
-          <Sparkle className="size-28 text-emerald-300" />
-        </div>
-      </div>
+      <HeroOrbit size={800} rotation={-120}>
+        <IoStarSharp className="size-28 text-emerald-300" />
+      </HeroOrbit>
+      <HeroOrbit size={550} rotation={-40}>
+        <IoStarSharp className="size-12 text-emerald-300" />
+      </HeroOrbit>
+
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
