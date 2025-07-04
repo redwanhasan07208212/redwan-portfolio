@@ -1,6 +1,6 @@
 import React from "react";
 import redwan from "@/assets/images/redwan.jpg";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Sparkle } from "lucide-react";
 import Image from "next/image";
 import grainImg from "@/assets/images/grain.jpg";
 import { IoStarSharp } from "react-icons/io5";
@@ -25,6 +25,18 @@ export const HeroSection = () => {
       </HeroOrbit>
       <HeroOrbit size={590} rotation={90}>
         <IoStarSharp className="size-12 text-emerald-300" />
+      </HeroOrbit>
+      <HeroOrbit size={540} rotation={79}>
+        <Sparkle className="size-12 text-emerald-300/20" />
+      </HeroOrbit>
+      <HeroOrbit size={440} rotation={40}>
+        <Sparkle className="size-12 text-emerald-300/20" />
+      </HeroOrbit>
+      <HeroOrbit size={530} rotation={-90}>
+        <Sparkle className="size-12 text-emerald-300/20" />
+      </HeroOrbit>
+      <HeroOrbit size={710} rotation={150}>
+        <Sparkle className="size-12 text-emerald-300/20" />
       </HeroOrbit>
 
       <div className="container">
