@@ -23,6 +23,9 @@ export const HeroSection = () => {
       <HeroOrbit size={550} rotation={-40}>
         <IoStarSharp className="size-12 text-emerald-300" />
       </HeroOrbit>
+      <HeroOrbit size={590} rotation={90}>
+        <IoStarSharp className="size-12 text-emerald-300" />
+      </HeroOrbit>
 
       <div className="container">
         <div className="flex flex-col items-center">
