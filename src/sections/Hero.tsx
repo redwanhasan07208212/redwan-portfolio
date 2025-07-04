@@ -27,16 +27,19 @@ export const HeroSection = () => {
         <IoStarSharp className="size-12 text-emerald-300" />
       </HeroOrbit>
       <HeroOrbit size={540} rotation={79}>
-        <Sparkle className="size-12 text-emerald-300/20" />
+        <Sparkle className="size-8 text-emerald-300/20" />
       </HeroOrbit>
       <HeroOrbit size={440} rotation={40}>
-        <Sparkle className="size-12 text-emerald-300/20" />
+        <Sparkle className="size-5 text-emerald-300/20" />
       </HeroOrbit>
       <HeroOrbit size={530} rotation={-90}>
-        <Sparkle className="size-12 text-emerald-300/20" />
+        <Sparkle className="size-10 text-emerald-300/20" />
       </HeroOrbit>
       <HeroOrbit size={710} rotation={150}>
-        <Sparkle className="size-12 text-emerald-300/20" />
+        <Sparkle className="size-14 text-emerald-300/20" />
+      </HeroOrbit>
+      <HeroOrbit size={720} rotation={50}>
+        <div className="size-3 rounded-full bg-emerald-300/20" />
       </HeroOrbit>
 
       <div className="container">

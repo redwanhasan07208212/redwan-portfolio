@@ -8,7 +8,7 @@ const HeroOrbit = ({
   return (
     <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
       <div
-        className=" rotate-45"
+        className="flex items-start justify-start rotate-45"
         style={{
           transform: `rotate(${rotation}deg)`,
           height: `${size}px`,
